@@ -1,0 +1,41 @@
+# Created at 2024-07-27T18:20:41.437
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:386)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.base/java.lang.Thread.run(Thread.java:1623)
+
+
+# Created at 2024-07-27T18:20:43.001
+Unexpected IOException with stream: 2024-07-27 18:20:43.000  INFO 21124 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+
+
+# Created at 2024-07-27T18:20:43.304
+Unexpected IOException with stream: 2024-07-27 18:20:43.302  INFO 21124 --- [           main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+
+
+# Created at 2024-07-27T18:20:44.493
+Unexpected IOException with stream: 2024-07-27 18:20:44.492  INFO 21124 --- [           main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+
+
+# Created at 2024-07-27T18:20:44.623
+Unexpected IOException with stream: 2024-07-27 18:20:44.622  INFO 21124 --- [           main] TestDemo                                 : Started TestDemo in 7.388 seconds (JVM running for 9.121)
+
+
+# Created at 2024-07-27T18:20:44.677
+Unexpected IOException: 5,1,TestDemo,test(TestDemo),null,null,null
+
+
+# Created at 2024-07-27T18:20:45.846
+Unexpected IOException with stream: ACC0515F34056AD8E32238910C6C3100
+
+
+# Created at 2024-07-27T18:20:45.859
+Unexpected IOException: 6,1,TestDemo,test(TestDemo),null,null,null
+
+
+# Created at 2024-07-27T18:20:45.861
+Unexpected IOException: 2,1,org.apache.maven.surefire.junit4.JUnit4Provider,TestDemo,null,null,null
+
+
